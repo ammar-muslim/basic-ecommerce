@@ -1,0 +1,25 @@
+.footer {
+    background-color: #151616;
+    color: #ffffff;
+    padding: 0px 0;
+    margin: 20px 0 0;
+  }
+  
+  .footer-copy {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #cccccc;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-title {
+      text-align: center;
+    }
+  
+    .footer-text,
+    .footer-links,
+    .footer-copy {
+      text-align: center;
+    }
+  }
+  

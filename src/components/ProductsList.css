@@ -1,0 +1,27 @@
+.container {
+    margin-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.categories_filter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.category {
+    padding: 10px 20px;
+    background-color: #18bdd6 !important;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.categorie:hover {
+    background-color: #064650 !important;
+    box-shadow: 1px 1px 1px black;
+}
